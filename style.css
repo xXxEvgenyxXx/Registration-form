@@ -1,0 +1,71 @@
+body{
+    background:url('images/bg.png');
+    background-size:cover;
+}
+.form-container{
+    width:400px;
+    background-color: white;
+    margin-left:35%;
+    margin-top:10%;
+    padding-left:10px;
+    padding-bottom:10px;
+}
+.header a{
+    font-weight:bold;
+    font-size:26px;
+    padding-top:10px;
+    text-decoration:none;
+}
+.reg{
+    float:left;
+    color: #8032e4;
+}
+.log{
+    float:right;
+    background-color: #8032e4;
+    color:white;
+}
+.log,.reg{
+    width:50%;
+    height:100%;
+    text-align:center;
+}
+input:focus{
+    outline:0;
+    border: 1px solid #b176ff;
+}
+#email{
+    background: url('images/email.png') no-repeat 3px 1px;
+    background-size: auto 90%;
+}
+#name{
+    background: url('images/user.png') no-repeat 3px 1px;
+    background-size: auto 90%;
+}
+input[type="checkbox"]{
+    width:auto;
+    margin-right:0;
+    padding-left:0;
+}
+#pass{
+    background: url('images/pass.png') no-repeat 3px 1px;
+    background-size: auto 90%;
+}
+input{
+    padding-top:5px;
+    padding-bottom:5px;
+    padding-right:5px;
+    padding-left:40px;
+    margin:10px;
+    width:80%;
+    border-color: rgb(204,204,204);
+}
+button{
+    padding:10px;
+    color:white;
+    background-color:#8032e4;
+    border: 1px solid #8032e4;
+}
+button:hover{
+    background-color:#8c3de3;
+}
